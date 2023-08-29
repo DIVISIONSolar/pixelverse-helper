@@ -1,7 +1,7 @@
 {
     "bot": {
-        "name": "My Bot",
-        "author": "My Name"
+        "name": "PixelVerse Helper",
+        "author": "[Josh Severo](https://joshsevero.dev)"
     },
     "emojis": {
         "yes": "✅",
@@ -23,15 +23,15 @@
         "error": "#ff4a4a"
     },
     "links": {
-        "author": "https://github.com/",
+        "author": "https://github.com/DIVISIONSolar",
         "docs": "https://top.gg/",
-        "donate": "https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=EW389DYYSS4FC",
+        "donate": "https://joshsevero.dev/donate",
         "invite": "https://discord.com/",
-        "source": "https://github.com/",
-        "stream": "https://www.twitch.tv/novakevin",
+        "source": "https://github.com/DIVISIONSolar/pixelverse-helper",
+        "stream": "",
         "support": "https://support.discord.com/",
         "template": "https://github.com/KevinNovak/Discord-Bot-TypeScript-Template",
-        "terms": "https://github.com/KevinNovak/Discord-Bot-TypeScript-Template/blob/master/LEGAL.md#terms-of-service",
+        "terms": "https://github.com/DIVISIONSolar/pixelverse-helper/blob/master/LEGAL.md#terms-of-service",
         "vote": "https://top.gg/"
     }
 }

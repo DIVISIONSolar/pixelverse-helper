@@ -15,6 +15,24 @@
                     }
                 ]
             },
+            "howtojoinjava": {
+                "title": "**How To Join `PixelVerse`**",
+                "description": [
+                    "```Install Version: `1.20.X (1.20.1 or higher)\n\nLoad into the version you've just installed\n\nSelect \"Multiplayer\"\n\nand enter the credentials listen below.```"
+                ],
+                "fields": [
+                    {
+                        "name": "**Server IP**",
+                        "value": "**`play.pixelverse.joshs.pro`**"
+                    }
+                ]
+            },
+            "howtojoinbedrock": {
+                "title": "**How to Join `PixelVerse`**",
+                "description": [
+                    "Sorry but we don't currently support Bedrock due to TCPShield charging $100/mo for geyser support.\n\n(They offer than just this for the plan).\n\n:( Maybe consider donating?"
+                ]
+            },
             "helpContactSupport": {
                 "title": "Help - {{REF:helpOptions.contactSupport}}",
                 "description": [
@@ -192,7 +210,8 @@
             "dev": "dev",
             "help": "help",
             "info": "info",
-            "test": "test"
+            "test": "test",
+            "howtojoin": "howtojoin"
         },
         "userCommands": {
             "viewDateJoined": "View Date Joined"
@@ -202,18 +221,21 @@
         },
         "arguments": {
             "command": "command",
-            "option": "option"
+            "option": "option",
+            "platform": "platform"
         },
         "commandDescs": {
             "dev": "Developer use only.",
             "help": "Find help or contact support.",
             "info": "View bot info.",
-            "test": "Run the test command."
+            "test": "Run the test command.",
+            "howtojoin": "How To Join"
         },
         "argDescs": {
             "devCommand": "Command.",
             "helpOption": "Option.",
-            "infoOption": "Option."
+            "infoOption": "Option.",
+            "platform": "Ex. PC, Xbox, Playstation, Mobile."
         },
         "fields": {
             "commands": "Commands",

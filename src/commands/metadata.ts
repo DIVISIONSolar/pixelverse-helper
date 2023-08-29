@@ -69,6 +69,21 @@ export const ChatCommandMetadata: {
         dm_permission: true,
         default_member_permissions: undefined,
     },
+    HOWTOJOIN: {
+        type: ApplicationCommandType.ChatInput,
+        name: Lang.getRef('chatCommands.howtojoin', Language.Default),
+        name_localizations: Lang.getRefLocalizationMap('chatCommands.howtojoin'),
+        description: Lang.getRef('commandDescs.howtojoin', Language.Default),
+        description_localizations: Lang.getRefLocalizationMap('commandDescs.howtojoin'),
+        dm_permission: true,
+        default_member_permissions: undefined,
+        options: [
+            {
+                ...Args.platform,
+                required: true,
+            },
+        ],
+    },
 };
 
 export const MessageCommandMetadata: {

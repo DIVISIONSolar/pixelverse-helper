@@ -57,4 +57,11 @@ export class Args {
             },
         ],
     };
+    public static readonly platform: APIApplicationCommandBasicOption = {
+        name: Lang.getRef('arguments.platform', Language.Default),
+        name_localizations: Lang.getRefLocalizationMap('arguments.platform'),
+        description: Lang.getRef('argDescs.platform', Language.Default),
+        description_localizations: Lang.getRefLocalizationMap('argDescs.platform'),
+        type: ApplicationCommandOptionType.String,
+    };
 }
