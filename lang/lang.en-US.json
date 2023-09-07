@@ -33,6 +33,10 @@
                     "Sorry but we don't currently support Bedrock due to TCPShield charging $100/mo for geyser support.\n\n(They offer than just this for the plan).\n\n:( Maybe consider donating?"
                 ]
             },
+            "servermap": {
+                "title": "**Dynmap for {{SERVER}}**",
+                "description": ["{{LINK}}"]
+            },
             "helpContactSupport": {
                 "title": "Help - {{REF:helpOptions.contactSupport}}",
                 "description": [
@@ -211,7 +215,8 @@
             "help": "help",
             "info": "info",
             "test": "test",
-            "howtojoin": "howtojoin"
+            "howtojoin": "howtojoin",
+            "map": "map"
         },
         "userCommands": {
             "viewDateJoined": "View Date Joined"
@@ -222,20 +227,23 @@
         "arguments": {
             "command": "command",
             "option": "option",
-            "platform": "platform"
+            "platform": "platform",
+            "server": "server"
         },
         "commandDescs": {
             "dev": "Developer use only.",
             "help": "Find help or contact support.",
             "info": "View bot info.",
             "test": "Run the test command.",
-            "howtojoin": "How To Join"
+            "howtojoin": "How To Join.",
+            "map": "The dynmap for the server."
         },
         "argDescs": {
             "devCommand": "Command.",
             "helpOption": "Option.",
             "infoOption": "Option.",
-            "platform": "Ex. PC, Xbox, Playstation, Mobile."
+            "platform": "Ex. PC, Xbox, Playstation, Mobile.",
+            "server": "The server's name"
         },
         "fields": {
             "commands": "Commands",

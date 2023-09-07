@@ -84,6 +84,21 @@ export const ChatCommandMetadata: {
             },
         ],
     },
+    MAP: {
+        type: ApplicationCommandType.ChatInput,
+        name: Lang.getRef('chatCommands.map', Language.Default),
+        name_localizations: Lang.getRefLocalizationMap('chatCommands.map'),
+        description: Lang.getRef('commandDescs.map', Language.Default),
+        description_localizations: Lang.getRefLocalizationMap('commandDescs.map'),
+        dm_permission: true,
+        default_member_permissions: undefined,
+        options: [
+            {
+                ...Args.server,
+                required: true,
+            },
+        ],
+    },
 };
 
 export const MessageCommandMetadata: {

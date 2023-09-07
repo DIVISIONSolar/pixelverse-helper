@@ -9,6 +9,7 @@ import {
     InfoCommand,
     TestCommand,
     HowToJoinCommand,
+    MapCommand
 } from './commands/chat/index.js';
 import {
     ChatCommandMetadata,
@@ -75,6 +76,7 @@ async function start(): Promise<void> {
 
         // TODO: Add new commands here
         new HowToJoinCommand(),
+        new MapCommand(),
     ];
 
     // Buttons

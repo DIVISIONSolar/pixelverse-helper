@@ -19,18 +19,36 @@ export class MapCommand implements Command {
         };
 
         // Check if the user entered "Survival"
-        if (args.Server.toLowerCase() === "survival") {
-            await intr.reply('Here is the link for Survival: https://map.pxlvrs.net/survival');
+        if (args.Server.toLowerCase() === 'survival') {
+            await InteractionUtils.send(
+                intr,
+                Lang.getEmbed('displayEmbeds.servermap', data.lang, {
+                    SERVER: 'Survival',
+                    LINK: 'https://map.pxlvrs.net/survival',
+                })
+            );
         }
 
         // Check if the user entered "LifeSteal"
-        else if (args.Server.toLowerCase() === "lifesteal") {
-            await intr.reply('Here is the link for LifeSteal: https://map.pxlvrs.net/lifesteal');
+        else if (args.Server.toLowerCase() === 'lifesteal') {
+            await InteractionUtils.send(
+                intr,
+                Lang.getEmbed('displayEmbeds.servermap', data.lang, {
+                    SERVER: 'LifeSteal',
+                    LINK: 'https://map.pxlvrs.net/lifesteal',
+                })
+            );
         }
 
         // If the input is not recognized, provide valid inputs
         else {
-            await intr.reply('Invalid input. Valid options are: Survival, LifeSteal');
+            await InteractionUtils.send(
+                intr,
+                Lang.getEmbed('displayEmbeds.servermap', data.lang, {
+                    SERVER: 'N/A',
+                    LINK: 'Invalid input. Valid options are: Survival, LifeSteal',
+                })
+            );
         }
     }
 }

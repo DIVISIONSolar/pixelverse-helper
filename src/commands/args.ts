@@ -64,4 +64,11 @@ export class Args {
         description_localizations: Lang.getRefLocalizationMap('argDescs.platform'),
         type: ApplicationCommandOptionType.String,
     };
+    public static readonly server: APIApplicationCommandBasicOption = {
+        name: Lang.getRef('arguments.server', Language.Default),
+        name_localizations: Lang.getRefLocalizationMap('arguments.server'),
+        description: Lang.getRef('argDescs.server', Language.Default),
+        description_localizations: Lang.getRefLocalizationMap('argDescs.server'),
+        type: ApplicationCommandOptionType.String,
+    };
 }
