@@ -37,6 +37,39 @@
                 "title": "**Dynmap for {{SERVER}}**",
                 "description": ["{{LINK}}"]
             },
+            "checkresponse": {
+                "title": "Status for {{HOSTNAME}}",
+                "fields": [
+                    {
+                        "name": "**HOSTNAME**",
+                        "value": "```{{HOSTNAME}}```"
+                    },
+                    {
+                        "name": "**PLAYERS**",
+                        "value": "```{{PLAYERS}}```"
+                    },
+                    {
+                        "name": "**VERSION**",
+                        "value": "```{{VERSION}}```"
+                    },
+                    {
+                        "name": "**MOTD**",
+                        "value": "```{{MOTD}}```"
+                    },
+                    {
+                        "name": "**STATUS**",
+                        "value": "```Online: {{ONLINE}}```"
+                    },
+                    {
+                        "name": "**PING**",
+                        "value": "```{{PING}}```"
+                    },
+                    {
+                        "name": "**QUERY**",
+                        "value": "```{{QUERY}}```"
+                    }
+                ]
+            },
             "helpContactSupport": {
                 "title": "Help - {{REF:helpOptions.contactSupport}}",
                 "description": [
@@ -216,7 +249,8 @@
             "info": "info",
             "test": "test",
             "howtojoin": "howtojoin",
-            "map": "map"
+            "map": "map",
+            "checkstatus": "check"
         },
         "userCommands": {
             "viewDateJoined": "View Date Joined"
@@ -236,7 +270,8 @@
             "info": "View bot info.",
             "test": "Run the test command.",
             "howtojoin": "How To Join.",
-            "map": "The dynmap for the server."
+            "map": "The dynmap for the server.",
+            "checkstatus": "Check the servers status."
         },
         "argDescs": {
             "devCommand": "Command.",

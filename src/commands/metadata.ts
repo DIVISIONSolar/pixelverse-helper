@@ -69,6 +69,15 @@ export const ChatCommandMetadata: {
         dm_permission: true,
         default_member_permissions: undefined,
     },
+    CHECKSTATUS: {
+        type: ApplicationCommandType.ChatInput,
+        name: Lang.getRef('chatCommands.checkstatus', Language.Default),
+        name_localizations: Lang.getRefLocalizationMap('chatCommands.checkstatus'),
+        description: Lang.getRef('commandDescs.checkstatus', Language.Default),
+        description_localizations: Lang.getRefLocalizationMap('commandDescs.checkstatus'),
+        dm_permission: true,
+        default_member_permissions: undefined,
+    },
     HOWTOJOIN: {
         type: ApplicationCommandType.ChatInput,
         name: Lang.getRef('chatCommands.howtojoin', Language.Default),
