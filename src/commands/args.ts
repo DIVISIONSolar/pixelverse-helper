@@ -71,4 +71,11 @@ export class Args {
         description_localizations: Lang.getRefLocalizationMap('argDescs.server'),
         type: ApplicationCommandOptionType.String,
     };
+    public static readonly upslocation: APIApplicationCommandBasicOption = {
+        name: Lang.getRef('arguments.upslocation', Language.Default),
+        name_localizations: Lang.getRefLocalizationMap('arguments.upslocation'),
+        description: Lang.getRef('argDescs.upslocation', Language.Default),
+        description_localizations: Lang.getRefLocalizationMap('argDescs.upslocation'),
+        type: ApplicationCommandOptionType.String,
+    };
 }

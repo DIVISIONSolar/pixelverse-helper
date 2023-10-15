@@ -70,6 +70,31 @@
                     }
                 ]
             },
+            "apcstatus": {
+                "title": "Status for {{SERVER}}",
+                "fields": [
+                    {
+                        "name": "**MODEL**",
+                        "value": "```{{MODEL}}```"
+                    },
+                    {
+                        "name": "**STATUS**",
+                        "value": "```{{STATUS}}```"
+                    },
+                    {
+                        "name": "**BCHARGE**",
+                        "value": "```{{BCHARGE}}```"
+                    },
+                    {
+                        "name": "**TIMELEFT**",
+                        "value": "```{{TIMELEFT}}```"
+                    },
+                    {
+                        "name": "**STATUS**",
+                        "value": "```{{STATUS}}```"
+                    }
+                ]
+            },
             "helpContactSupport": {
                 "title": "Help - {{REF:helpOptions.contactSupport}}",
                 "description": [
@@ -250,7 +275,8 @@
             "test": "test",
             "howtojoin": "howtojoin",
             "map": "map",
-            "checkstatus": "check"
+            "checkstatus": "check",
+            "upsstatus": "upstats"
         },
         "userCommands": {
             "viewDateJoined": "View Date Joined"
@@ -262,7 +288,8 @@
             "command": "command",
             "option": "option",
             "platform": "platform",
-            "server": "server"
+            "server": "server",
+            "upslocation": "location"
         },
         "commandDescs": {
             "dev": "Developer use only.",
@@ -271,14 +298,16 @@
             "test": "Run the test command.",
             "howtojoin": "How To Join.",
             "map": "The dynmap for the server.",
-            "checkstatus": "Check the servers status."
+            "checkstatus": "Check the servers status.",
+            "upsstatus": "UPS Status."
         },
         "argDescs": {
             "devCommand": "Command.",
             "helpOption": "Option.",
             "infoOption": "Option.",
             "platform": "Ex. PC, Xbox, Playstation, Mobile.",
-            "server": "The server's name"
+            "server": "The server's name",
+            "upslocation": "Location you wish to check. (Avail: pxlvrs.net, network)"
         },
         "fields": {
             "commands": "Commands",

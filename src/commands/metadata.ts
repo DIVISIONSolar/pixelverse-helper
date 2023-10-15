@@ -108,6 +108,21 @@ export const ChatCommandMetadata: {
             },
         ],
     },
+    UPSLOCATION: {
+        type: ApplicationCommandType.ChatInput,
+        name: Lang.getRef('chatCommands.upsstatus', Language.Default),
+        name_localizations: Lang.getRefLocalizationMap('chatCommands.upsstatus'),
+        description: Lang.getRef('commandDescs.upsstatus', Language.Default),
+        description_localizations: Lang.getRefLocalizationMap('commandDescs.upsstatus'),
+        dm_permission: true,
+        default_member_permissions: undefined,
+        options: [
+            {
+                ...Args.upslocation,
+                required: true,
+            },
+        ],
+    },
 };
 
 export const MessageCommandMetadata: {

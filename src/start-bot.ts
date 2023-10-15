@@ -11,6 +11,7 @@ import {
     HowToJoinCommand,
     MapCommand,
     CheckCommand,
+    UpsStatusCommand,
 } from './commands/chat/index.js';
 import {
     ChatCommandMetadata,
@@ -79,6 +80,7 @@ async function start(): Promise<void> {
         new HowToJoinCommand(),
         new MapCommand(),
         new CheckCommand(),
+        new UpsStatusCommand(),
     ];
 
     // Buttons
